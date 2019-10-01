@@ -6,9 +6,6 @@
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
- * {
-  box-sizing: border-box;
-}
 
 html {
   line-height: 1.15;
@@ -31,7 +28,9 @@ body {
   text-align:right;
 }
 
-
+*{
+  box-sizing: border-box;
+}
 
 
 
@@ -1100,9 +1099,9 @@ table tfoot td {
 }
 
 .about p {
-  font-family: aviny;
   font-size: 16px;
   margin: 0 0 10px;
+  font-family: aviny;
 }
 
 .content-box {
