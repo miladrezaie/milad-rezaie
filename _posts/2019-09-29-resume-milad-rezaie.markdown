@@ -1,12 +1,14 @@
 ---
 layout: post
-title: رزومه میلاد رضایی
+title: رزومه من
 date: 2017-09-12 00:00:00 +0300
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img:  # Add image post (optional)
+description: رزومه میلاد رضایی قزوینی. # Add post description (optional)
+img:  software.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
-tags: [Productivity, Workflow] # add tag
+tags: [ میلاد رضایی قزوینی, رزومه] # add tag
 ---
 
 # درباره من
-لیسانس مهندسی کامپیوتر -نرم افزار متولد 1374 
+* دیپلم ریاضی وفیزیک از دبیرستان پاسداران
+* لیسانس مهندسی کامپیوتر - نرم افزار از دانشگاه بزرگمهر قاینات
+* آشنایی با زبان های تحت وب php ,python , java

@@ -16,24 +16,25 @@
 title: "وب سایت شخصی میلاد رضایی"
 email: miladinforezaie@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+    میلاد رضایی رزومه انتشار جکیل
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+keywords: کامپیوتر برنامه‌نویسی پایتون تکنولوژی مهندسی ایران وب
+
+url: https://milad-rezaie.ir # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  miladrezaie
 
 
 # Author Settings
 author: میلاد رضایی # add your name
-author-img: milad-rezaie.jpg # add your photo
+author-img: milad-rezaie.png # add your photo
 about-author: توسعه دهنده وب. # add description
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-github: miladrezaie # add your Github handle
 social-linkedin: # add your Linkedin handle
-social-email: # add your Email address
+social-email: miladinforezaie@gmail.com # add your Email address
+social-instagram: mq_rezaie
 
 
 # Build settings
@@ -41,7 +42,7 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-paginate: 1
+paginate: 2
 paginate_path: "/blog/page:num/"
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
