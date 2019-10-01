@@ -6,6 +6,10 @@
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
+ * {
+  box-sizing: border-box;
+}
+
 html {
   line-height: 1.15;
   /* 1 */
@@ -28,21 +32,9 @@ body {
 }
 
 
-* {
-  box-sizing: border-box;
-}
 
-body {
-  margin: 0px;
-  font-family: 'segoe ui';
-}
-.container{
-  display: inline-block;
-    position: relative;
-    width: 100%;
-    background: url('https://s20.postimg.org/o09gf7fvx/bag.jpg') no-repeat center top;
-    background-size: contain;
-}
+
+
 .nav {
   height: 50px;
   width: 100%;
