@@ -27,6 +27,115 @@ body {
   text-align:right;
 }
 
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: 'segoe ui';
+}
+.container{
+  display: inline-block;
+    position: relative;
+    width: 100%;
+    background: url('https://s20.postimg.org/o09gf7fvx/bag.jpg') no-repeat center top;
+    background-size: contain;
+}
+.nav {
+  height: 50px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #4d4d4d;
+  position: relative;
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: inline;
+  /* float: right; */
+  font-size: 21px;
+  font-family: aviny;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #efefef;
+}
+
+.nav > .nav-links > a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav > #nav-check {
+  display: none;
+}
+
+@media (max-width:600px) {
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #333;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+}
+
+
+
 /**
  * Add the correct display in IE 9-.
  */
@@ -972,11 +1081,11 @@ table tfoot td {
 }
 
 .about .author-name {
-  font-family: vazir;
+  
   margin: 0 0 10px;
   position: relative;
   padding-bottom: 15px;
-  font-size: 16px;
+  font-size: 21px;
   text-transform: uppercase;
   color: #333030;
   font-weight: 700;
@@ -999,6 +1108,7 @@ table tfoot td {
 }
 
 .about p {
+  font-family: aviny;
   font-size: 16px;
   margin: 0 0 10px;
 }
@@ -1028,7 +1138,8 @@ table tfoot td {
   position: relative;
   color: #333030;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 15px;
+  font-family: aviny;
   margin: 0 0 5px;
   text-transform: uppercase;
   text-align: center;
@@ -1099,6 +1210,7 @@ table tfoot td {
 
 footer .copyright {
   font-size: 14px;
+  font-family: aviny;
   text-align: center;
   margin: 0;
 }
