@@ -114,13 +114,16 @@ body {
     overflow-y: hidden;
     top: 50px;
     left: 0px;
+    z-index: 1;
   }
   .nav > .nav-links > a {
     display: block;
     width: 100%;
+    z-index: 1;
   }
   .nav > #nav-check:not(:checked) ~ .nav-links {
     height: 0px;
+    z-index: 1;
   }
   .nav > #nav-check:checked ~ .nav-links {
     height: calc(100vh - 50px);
