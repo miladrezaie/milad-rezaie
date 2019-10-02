@@ -990,8 +990,20 @@ table tfoot td {
 }
 
 .wrapper {
-  max-width: 1250px;
-  position: relative;
+  left: 5.5%;
+  width: 90%;
+  height: 60%;  
+  position: absolute;
+    
+}
+@media (max-width: 688px){
+  .wrapper {
+    left: 0%;
+    width: 100%;
+    height: 100%;  
+    position: absolute;
+      
+  }
 }
 
 .post, .article-page {
@@ -1330,7 +1342,7 @@ a.newer-posts:hover {
   position: relative;
   padding: 0;
   margin: 0;
-  max-height: 500px;
+  max-height: 300px;
   background-color: #fafafa;
   overflow: hidden;
 }
@@ -1473,9 +1485,9 @@ a.newer-posts:hover {
 
 /* - - - - - - - - - - Media Styles - - - - - - - - - - */
 /* Medium Devices, Desktops */
+
 @media only screen and (max-width: 992px) {
   .post {
-    width: 48%;
     max-width: 100%;
     margin: 0 0.9% 1.5%;
     -webkit-box-orient: vertical;
@@ -1494,7 +1506,10 @@ a.newer-posts:hover {
     margin: 0 0 5px;
   }
   .post .post-content .post-title a {
-    font-size: 21px;
+    font-size: 17px;
+  }
+  .post .post-content p{
+    font-size: 14px; 
   }
 }
 
