@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <article class="article-page">
   <div class="page-content">
     {% if page.img %}
@@ -14,11 +15,13 @@ layout: default
     </div> <!-- End Page Cover Image -->
     {% else %}
     {% endif %}
+    
     <div class="wrap-content">
       <header class="header-page">
         <h1 class="page-title">{{page.title}}</h1>
         <div class="page-date"><span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
       </header>
+      
       {{content | markdownify}}
       <div class="page-footer">
         <div class="page-share">
