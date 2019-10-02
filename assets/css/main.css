@@ -80,6 +80,9 @@ body {
 }
 
 @media (max-width:600px) {
+  .nav {
+    z-index: 1;
+  }
   .nav > .nav-btn {
     display: inline-block;
     position: absolute;
