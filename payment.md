@@ -1,11 +1,11 @@
 ---
 layout: page
-title: درباره من
+title: حمایت مالی
 permalink: /payment/
 description: رزومه میلاد رضایی قزوینی. # Add post description (optional)
 img:  software.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
-tags: [ میلاد رضایی قزوینی, رزومه] # add tag
+tags: [ میلاد رضایی قزوینی, حمایت] # add tag
 ---
  
  
