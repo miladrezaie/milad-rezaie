@@ -6,6 +6,9 @@ description: لاراول یک فریمورک های قدرتمند زبان ب�
 img: laravel.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [php]
+permalink: /:title/
+lang: en_US
+author: میلاد رضایی
 ---
 
 # لاراول 
