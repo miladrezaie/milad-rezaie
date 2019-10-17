@@ -10,10 +10,13 @@ tags: [ میلاد رضایی قزوینی, حمایت] # add tag
  
  
 
-#### اطلاعات شخصی 
-حمایت == خوشحالی 
-[Read more][1]
+#### به طور قطع اگه ازم حماست کنید منم خوشحال تر و با انگیزه بیشتری ادامه میدم 
+ 
+> شما میتونید روی push بزنید تا منو یاری بدید .
+ 
 
-[1]: https://payping.ir/miladrezaie
+
+ [![button](http://www.presentationpro.com/images/product/medium/slide/PPP_CGENE_LT3_Presentation-PowerPoint-Slide-Graphic_Push_Button_Up.jpg)](https://payping.ir/miladrezaie)
+ 
 
 
